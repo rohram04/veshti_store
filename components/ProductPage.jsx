@@ -108,7 +108,7 @@ export default function ProductPage({ increase }) {
 
         {/* Image gallery */}
         <div className="mt-6 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:gap-x-8">
-          <div className="hidden aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
+          <div className="aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
             <img
               src={product.images[0]}
               alt={product.description}
