@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import { useDispatch, useSelector } from "react-redux";
 import Modal from "./modal";
 import { useState, useEffect } from "react";
